@@ -10,7 +10,8 @@ module.exports = {
 	engine: require('katex'),
 	delimiters: 'dollars'
       });
-    }
+    },
+    lineNumbers: true
   },
   head: [
     ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.3/katex.min.css', grity: 'sha512-6VMVcy7XQNyarhVuiL50FzpgCFKsyTd6YO93aaQEyET+BNaWvj0IgKR86Bf6+AmWczxAcSnL+JGjo+iStgO1gQ==', crossorigin: 'anonymous', referrerpolicy: 'no-referrer' }]
